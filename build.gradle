@@ -30,7 +30,7 @@ dependencies {
     implementation 'net.minecraftforge:srgutils:0.5.4'
     implementation 'org.parchmentmc.feather:io-moshi:1.0.0.3'
     implementation 'com.google.guava:guava:33.4.0-jre'
-    implementation 'net.fabricmc.unpick:unpick-format-utils:2.3.0'
+    implementation 'net.fabricmc.unpick:unpick-format-utils:3.0.0-beta.8'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.4'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.4'
@@ -41,7 +41,7 @@ test {
 }
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(8)
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
     withSourcesJar()
     withJavadocJar()
 }

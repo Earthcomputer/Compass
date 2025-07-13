@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Reader for a simple and quickly editable input file format.
  *
- * @see <a href="https://github.com/ParchmentMC/Compass/wiki/Simple-Input-File-Format"><tt>ParchmentMC/Compass</tt>
+ * @see <a href="https://github.com/ParchmentMC/Compass/wiki/Simple-Input-File-Format">{@code ParchmentMC/Compass}
  * repository wiki, "Simple Input File Format"</a>
  */
 public class SimpleInputFileReader {
